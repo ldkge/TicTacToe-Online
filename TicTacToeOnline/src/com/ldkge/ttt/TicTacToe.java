@@ -19,8 +19,9 @@ public class TicTacToe {
 	}
 	
 	public void makeMove(int x, int y, int player) {
-		if (board[x][y] != -3) {
+		if (board[x][y] == -3 && (player == 0 || player == 1)) {
 			board[x][y] = player;
+			checkWin();
 		}
 		else {
 			System.out.println("Invalid move");
@@ -38,7 +39,10 @@ public class TicTacToe {
 				d1 = board[0][2] + board[1][1] + board[2][0];
 		
 		if (c0 == 0 || c1 == 0 || c2 == 0 || r0 == 0 || r1 == 0 || r2 == 0 || d0 == 0 || d1 == 0) {
-			System.out.println();
+			System.out.println("Player 0 wins");
+		}
+		else if (c0 == 3 || c1 == 3 || c2 == 3 || r0 == 3 || r1 == 3 || r2 == 3 || d0 == 3 || d1 == 3) {
+			System.out.println("Player 1 wins");
 		}
 	}
 
