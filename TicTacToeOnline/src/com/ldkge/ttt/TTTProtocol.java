@@ -11,9 +11,11 @@ public class TTTProtocol {
 	private int state = NEWGAME;
 	private int[] score;
 	private TicTacToe game;
+	private AIPlayer ai;
 	
 	public TTTProtocol() {
 		game = null;
+		ai = null;
 		score = new int[] {0, 0};
 	}
 	
@@ -24,6 +26,7 @@ public class TTTProtocol {
 		switch (state) {
 		case NEWGAME:
 			game = new TicTacToe();
+			ai = new AIPlayer(game.getBoard());
 			
 			Random ran = new Random();
 			if (ran.nextInt() % 2 == 0) {
@@ -36,12 +39,12 @@ public class TTTProtocol {
 			}
 			break;
 		case PLAYERZERO:
-			//Calculate AI move
+			int[] aiMove = ai.makeMove();
 			
-			outcome = game.makeMove(0, 0, 0);
+			outcome = game.makeMove(aiMove[0], aiMove[1], 0);
 			if (outcome == "Continue") {
 				state = PLAYERONE;
-				output = "0,0";
+				output = aiMove[0] + "," + aiMove[1];
 			}
 			else {
 				state = END;

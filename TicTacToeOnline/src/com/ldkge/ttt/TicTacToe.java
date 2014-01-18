@@ -64,4 +64,7 @@ public class TicTacToe {
 		return "Continue";
 	}
 
+	public int[][] getBoard() {
+		return board;
+	}
 }
