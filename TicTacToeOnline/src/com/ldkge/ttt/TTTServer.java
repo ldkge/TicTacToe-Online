@@ -16,16 +16,24 @@ public class TTTServer {
              Socket clientSocket = serverSocket.accept();
              PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
              BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-        
-            String inputLine, outputLine;
+             
+             String inputLine, outputLine;
             
-            // Initiate conversation with client
+             TTTProtocol tttp = new TTTProtocol();
+             outputLine = tttp.processInput(null);
+             out.println(outputLine);
+
+             while ((inputLine = in.readLine()) != null) {
+                 outputLine = tttp.processInput(inputLine);
+                 out.println(outputLine);
+                 if (outputLine.equals("BYE"))
+                     break;
+             }
            
 
            
         } catch (IOException e) {
-            System.out.println("Exception caught when trying to listen on port "
-                + portNumber + " or listening for a connection");
+            System.out.println("Exception caught when trying to listen on port " + portNumber + " or listening for a connection");
             System.out.println(e.getMessage());
         }
 
