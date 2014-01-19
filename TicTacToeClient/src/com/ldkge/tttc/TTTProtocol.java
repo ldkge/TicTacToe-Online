@@ -1,6 +1,5 @@
 package com.ldkge.tttc;
 
-import java.util.Random;
 
 public class TTTProtocol {
 	private static final int NEWGAME = 0;
