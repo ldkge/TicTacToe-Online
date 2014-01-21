@@ -152,25 +152,23 @@ public class AIPlayer {
 		return score;
 	}
 
-	private int[] winningPatterns = {
-			0b111000000, 0b000111000, 0b000000111, // rows
-			0b100100100, 0b010010010, 0b001001001, // cols
-			0b100010001, 0b001010100               // diagonals
-	};
-
-	/** Returns true if thePlayer wins */
 	private boolean hasWon(int thePlayer) {
-		int pattern = 0b000000000;  // 9-bit pattern for the 9 cells
-		for (int row = 0; row < 3; ++row) {
-			for (int col = 0; col < 3; ++col) {
-				if (board[row][col] == thePlayer) {
-					pattern |= (1 << (row * 3 + col));
-				}
-			}
+		int c0 = board[0][0] + board[1][0] + board[2][0],
+				c1 = board[0][1] + board[1][1] + board[2][1],
+				c2 = board[0][2] + board[1][2] + board[2][2],
+				r0 = board[0][0] + board[0][1] + board[0][2],
+				r1 = board[1][0] + board[1][1] + board[1][2],
+				r2 = board[2][0] + board[2][1] + board[2][2],
+				d0 = board[0][0] + board[1][1] + board[2][2],
+				d1 = board[0][2] + board[1][1] + board[2][0];
+		
+		if (c0 == 0 || c1 == 0 || c2 == 0 || r0 == 0 || r1 == 0 || r2 == 0 || d0 == 0 || d1 == 0) {
+			return thePlayer == 0;
 		}
-		for (int winningPattern : winningPatterns) {
-			if ((pattern & winningPattern) == winningPattern) return true;
+		else if (c0 == 3 || c1 == 3 || c2 == 3 || r0 == 3 || r1 == 3 || r2 == 3 || d0 == 3 || d1 == 3) {
+			return thePlayer == 1;
 		}
+		
 		return false;
 	}
 }

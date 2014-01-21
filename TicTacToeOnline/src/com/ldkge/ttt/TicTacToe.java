@@ -49,16 +49,13 @@ public class TicTacToe {
 		}
 		
 		if (c0 == 0 || c1 == 0 || c2 == 0 || r0 == 0 || r1 == 0 || r2 == 0 || d0 == 0 || d1 == 0) {
-			System.out.println("WIN0");
-			return "Player 0 wins";
+			return "WIN0";
 		}
 		else if (c0 == 3 || c1 == 3 || c2 == 3 || r0 == 3 || r1 == 3 || r2 == 3 || d0 == 3 || d1 == 3) {
-			System.out.println("WIN1");
-			return "Player 1 wins";
+			return "WIN1";
 		}
 		else if (k == 9) {
-			System.out.println("DRAW");
-			return "Draw";
+			return "DRAW";
 		}
 		
 		return "Continue";
