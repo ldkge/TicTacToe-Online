@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_f7UaQIKVEeOuhPGQypdapg">
+  <modelElement href="TicTacToeOnline.uml#_g_8gAIKVEeOuhPGQypdapg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_isKKMIKVEeOuhPGQypdapg" sourceAnchor="254.0,97.0" targetAnchor="0.0,107.0" target="_ioJz8IKVEeOuhPGQypdapg" source="_iuP04IKVEeOuhPGQypdapg">
+    <modelElement href="TicTacToeOnline.uml#_hMRr0IKVEeOuhPGQypdapg"/>
+    <stereotypes xmi:id="_itdxwIKVEeOuhPGQypdapg" name="Reference">
+      <modelElement href="TicTacToeOnline.uml#_hMfHMIKVEeOuhPGQypdapg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_itbVgIKVEeOuhPGQypdapg" text="">
+      <visualProperties xmi:id="_jPm1gIKVEeOuhPGQypdapg" position="-43.5,-7.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_itdKsIKVEeOuhPGQypdapg" aggregationKind="NONE" name="">
+      <modelElement href="TicTacToeOnline.uml#_hMRr0YKVEeOuhPGQypdapg"/>
+      <visualProperties xmi:id="_jPlnYIKVEeOuhPGQypdapg" position="5.0,-46.5"/>
+      <visibility xmi:id="_itj4YIKVEeOuhPGQypdapg" label="+"/>
+      <cardinality xmi:id="_itjRUIKVEeOuhPGQypdapg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_itdKsYKVEeOuhPGQypdapg" aggregationKind="NONE" name="ai" navigable="true">
+      <modelElement href="TicTacToeOnline.uml#_hLMGsIKVEeOuhPGQypdapg"/>
+      <visualProperties xmi:id="_jPnckIKVEeOuhPGQypdapg" position="-30.5,5.5"/>
+      <visibility xmi:id="_itkfcIKVEeOuhPGQypdapg" label="-"/>
+      <cardinality xmi:id="_itj4YYKVEeOuhPGQypdapg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_itoJ0IKVEeOuhPGQypdapg" sourceAnchor="127.0,0.0" targetAnchor="153.0,136.0" target="_i0IacIKVEeOuhPGQypdapg" source="_iuP04IKVEeOuhPGQypdapg">
+    <modelElement href="TicTacToeOnline.uml#_hMGFoIKVEeOuhPGQypdapg"/>
+    <stereotypes xmi:id="_itoJ0YKVEeOuhPGQypdapg" name="Reference">
+      <modelElement href="TicTacToeOnline.uml#_hMREwIKVEeOuhPGQypdapg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_itoJ0oKVEeOuhPGQypdapg" text="">
+      <visualProperties xmi:id="_jPrG8IKVEeOuhPGQypdapg" position="-40.5,-5.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_itoJ04KVEeOuhPGQypdapg" aggregationKind="NONE" name="">
+      <modelElement href="TicTacToeOnline.uml#_hMGFoYKVEeOuhPGQypdapg"/>
+      <visualProperties xmi:id="_jPpRwIKVEeOuhPGQypdapg" position="-21.0,-46.0"/>
+      <visibility xmi:id="_itoJ1IKVEeOuhPGQypdapg" label="+"/>
+      <cardinality xmi:id="_itoJ1YKVEeOuhPGQypdapg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_itoJ1oKVEeOuhPGQypdapg" aggregationKind="NONE" name="game" navigable="true">
+      <modelElement href="TicTacToeOnline.uml#_hLIcUIKVEeOuhPGQypdapg"/>
+      <visualProperties xmi:id="_jPsVEIKVEeOuhPGQypdapg" position="3.0,5.5"/>
+      <visibility xmi:id="_itoJ14KVEeOuhPGQypdapg" label="-"/>
+      <cardinality xmi:id="_itoJ2IKVEeOuhPGQypdapg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ioJz8IKVEeOuhPGQypdapg" name="AIPlayer" associationsIn="_isKKMIKVEeOuhPGQypdapg">
+    <modelElement href="TicTacToeOnline.uml#_hBrlYIKVEeOuhPGQypdapg"/>
+    <visualProperties xmi:id="_ioJz8YKVEeOuhPGQypdapg" position="511.0,356.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ioJz8oKVEeOuhPGQypdapg" label="+"/>
+    <attributes xmi:id="_ioJz84KVEeOuhPGQypdapg" name="board">
+      <modelElement href="TicTacToeOnline.uml#_hKuMoIKVEeOuhPGQypdapg"/>
+      <stereotypes xmi:id="_ioJz9IKVEeOuhPGQypdapg" name="Array">
+        <modelElement href="TicTacToeOnline.uml#_hKwB0IKVEeOuhPGQypdapg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ioJz9YKVEeOuhPGQypdapg" name="LegacyStyledElement">
+        <modelElement href="TicTacToeOnline.uml#_hKyeEIKVEeOuhPGQypdapg"/>
+      </stereotypes>
+      <visibility xmi:id="_ioJz9oKVEeOuhPGQypdapg" label="~"/>
+      <cardinality xmi:id="_ioJz94KVEeOuhPGQypdapg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_ioJz-IKVEeOuhPGQypdapg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ioJz-YKVEeOuhPGQypdapg" name="oboard">
+      <modelElement href="TicTacToeOnline.uml#_hKzsMIKVEeOuhPGQypdapg"/>
+      <stereotypes xmi:id="_ioJz-oKVEeOuhPGQypdapg" name="Array">
+        <modelElement href="TicTacToeOnline.uml#_hK1hYIKVEeOuhPGQypdapg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ioJz-4KVEeOuhPGQypdapg" name="LegacyStyledElement">
+        <modelElement href="TicTacToeOnline.uml#_hK39oIKVEeOuhPGQypdapg"/>
+      </stereotypes>
+      <visibility xmi:id="_ioJz_IKVEeOuhPGQypdapg" label="~"/>
+      <cardinality xmi:id="_ioJz_YKVEeOuhPGQypdapg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_ioJz_oKVEeOuhPGQypdapg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ioJz_4KVEeOuhPGQypdapg" name="AIPlayer">
+      <modelElement href="TicTacToeOnline.uml#_hCA8kIKVEeOuhPGQypdapg"/>
+      <keywords xmi:id="_ioKbAIKVEeOuhPGQypdapg" keyword="create"/>
+      <visibility xmi:id="_ioKbAYKVEeOuhPGQypdapg" label="+"/>
+      <outParameters xmi:id="_ioKbAoKVEeOuhPGQypdapg">
+        <modelElement href="TicTacToeOnline.uml#_hCFOAIKVEeOuhPGQypdapg"/>
+        <type xmi:id="_ioKbA4KVEeOuhPGQypdapg" name="AIPlayer">
+          <modelElement href="TicTacToeOnline.uml#_hBrlYIKVEeOuhPGQypdapg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ioKbBIKVEeOuhPGQypdapg" name="board">
+        <modelElement href="TicTacToeOnline.uml#_hCBjoIKVEeOuhPGQypdapg"/>
+        <type xmi:id="_ioKbBYKVEeOuhPGQypdapg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ioKbBoKVEeOuhPGQypdapg" name="makeMove">
+      <modelElement href="TicTacToeOnline.uml#_hCI4YIKVEeOuhPGQypdapg"/>
+      <stereotypes xmi:id="_ioKbB4KVEeOuhPGQypdapg" name="Array">
+        <modelElement href="TicTacToeOnline.uml#_hCL7sIKVEeOuhPGQypdapg"/>
+      </stereotypes>
+      <visibility xmi:id="_ioKbCIKVEeOuhPGQypdapg" label="+"/>
+      <outParameters xmi:id="_ioKbCYKVEeOuhPGQypdapg">
+        <modelElement href="TicTacToeOnline.uml#_hCKGgIKVEeOuhPGQypdapg"/>
+        <type xmi:id="_ioKbCoKVEeOuhPGQypdapg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ioKbC4KVEeOuhPGQypdapg" name="minimax">
+      <modelElement href="TicTacToeOnline.uml#_hCOX8IKVEeOuhPGQypdapg"/>
+      <stereotypes xmi:id="_ioKbDIKVEeOuhPGQypdapg" name="Array">
+        <modelElement href="TicTacToeOnline.uml#_hCSCUIKVEeOuhPGQypdapg"/>
+      </stereotypes>
+      <visibility xmi:id="_ioKbDYKVEeOuhPGQypdapg" label="-"/>
+      <outParameters xmi:id="_ioKbDoKVEeOuhPGQypdapg">
+        <modelElement href="TicTacToeOnline.uml#_hCQ0MIKVEeOuhPGQypdapg"/>
+        <type xmi:id="_ioKbD4KVEeOuhPGQypdapg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ioKbEIKVEeOuhPGQypdapg" name="depth">
+        <modelElement href="TicTacToeOnline.uml#_hCO_AIKVEeOuhPGQypdapg"/>
+        <type xmi:id="_ioKbEYKVEeOuhPGQypdapg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ioKbEoKVEeOuhPGQypdapg" name="player">
+        <modelElement href="TicTacToeOnline.uml#_hCPmEIKVEeOuhPGQypdapg"/>
+        <type xmi:id="_ioKbE4KVEeOuhPGQypdapg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ioKbFIKVEeOuhPGQypdapg" name="alpha">
+        <modelElement href="TicTacToeOnline.uml#_hCPmEYKVEeOuhPGQypdapg"/>
+        <type xmi:id="_ioKbFYKVEeOuhPGQypdapg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ioKbFoKVEeOuhPGQypdapg" name="beta">
+        <modelElement href="TicTacToeOnline.uml#_hCQNIIKVEeOuhPGQypdapg"/>
+        <type xmi:id="_ioKbF4KVEeOuhPGQypdapg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ioKbGIKVEeOuhPGQypdapg" name="generateMoves">
+      <modelElement href="TicTacToeOnline.uml#_hCVFoIKVEeOuhPGQypdapg"/>
+      <stereotypes xmi:id="_ioKbGYKVEeOuhPGQypdapg" name="Generics">
+        <modelElement href="TicTacToeOnline.uml#_hCYwAIKVEeOuhPGQypdapg"/>
+      </stereotypes>
+      <visibility xmi:id="_ioKbGoKVEeOuhPGQypdapg" label="-"/>
+      <outParameters xmi:id="_ioKbG4KVEeOuhPGQypdapg">
+        <modelElement href="TicTacToeOnline.uml#_hKlCsIKVEeOuhPGQypdapg"/>
+        <type xmi:id="_ioKbHIKVEeOuhPGQypdapg" name="List">
+          <modelElement href="TicTacToeOnline.uml#_hJvVMIKVEeOuhPGQypdapg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ioKbHYKVEeOuhPGQypdapg" name="evaluate">
+      <modelElement href="TicTacToeOnline.uml#_hCbzUIKVEeOuhPGQypdapg"/>
+      <visibility xmi:id="_ioKbHoKVEeOuhPGQypdapg" label="-"/>
+      <outParameters xmi:id="_ioKbH4KVEeOuhPGQypdapg">
+        <modelElement href="TicTacToeOnline.uml#_hCcaYIKVEeOuhPGQypdapg"/>
+        <type xmi:id="_ioKbIIKVEeOuhPGQypdapg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ioKbIYKVEeOuhPGQypdapg" name="evaluateLine">
+      <modelElement href="TicTacToeOnline.uml#_hCgr0IKVEeOuhPGQypdapg"/>
+      <visibility xmi:id="_ioKbIoKVEeOuhPGQypdapg" label="-"/>
+      <outParameters xmi:id="_ioKbI4KVEeOuhPGQypdapg">
+        <modelElement href="TicTacToeOnline.uml#_hCjvIIKVEeOuhPGQypdapg"/>
+        <type xmi:id="_ioKbJIKVEeOuhPGQypdapg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ioKbJYKVEeOuhPGQypdapg" name="row1">
+        <modelElement href="TicTacToeOnline.uml#_hChS4IKVEeOuhPGQypdapg"/>
+        <type xmi:id="_ioKbJoKVEeOuhPGQypdapg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ioKbJ4KVEeOuhPGQypdapg" name="col1">
+        <modelElement href="TicTacToeOnline.uml#_hCh58IKVEeOuhPGQypdapg"/>
+        <type xmi:id="_ioKbKIKVEeOuhPGQypdapg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ioKbKYKVEeOuhPGQypdapg" name="row2">
+        <modelElement href="TicTacToeOnline.uml#_hCh58YKVEeOuhPGQypdapg"/>
+        <type xmi:id="_ioKbKoKVEeOuhPGQypdapg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ioKbK4KVEeOuhPGQypdapg" name="col2">
+        <modelElement href="TicTacToeOnline.uml#_hCh58oKVEeOuhPGQypdapg"/>
+        <type xmi:id="_ioKbLIKVEeOuhPGQypdapg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ioKbLYKVEeOuhPGQypdapg" name="row3">
+        <modelElement href="TicTacToeOnline.uml#_hCihAIKVEeOuhPGQypdapg"/>
+        <type xmi:id="_ioKbLoKVEeOuhPGQypdapg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ioKbL4KVEeOuhPGQypdapg" name="col3">
+        <modelElement href="TicTacToeOnline.uml#_hCihAYKVEeOuhPGQypdapg"/>
+        <type xmi:id="_ioKbMIKVEeOuhPGQypdapg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ioKbMYKVEeOuhPGQypdapg" name="hasWon">
+      <modelElement href="TicTacToeOnline.uml#_hCoAkIKVEeOuhPGQypdapg"/>
+      <visibility xmi:id="_ioKbMoKVEeOuhPGQypdapg" label="-"/>
+      <outParameters xmi:id="_ioKbM4KVEeOuhPGQypdapg">
+        <modelElement href="TicTacToeOnline.uml#_hCpOsIKVEeOuhPGQypdapg"/>
+        <type xmi:id="_ioKbNIKVEeOuhPGQypdapg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ioKbNYKVEeOuhPGQypdapg" name="thePlayer">
+        <modelElement href="TicTacToeOnline.uml#_hConoIKVEeOuhPGQypdapg"/>
+        <type xmi:id="_ioKbNoKVEeOuhPGQypdapg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_iuP04IKVEeOuhPGQypdapg" name="TTTProtocol" associationsOut="_isKKMIKVEeOuhPGQypdapg _itoJ0IKVEeOuhPGQypdapg">
+    <modelElement href="TicTacToeOnline.uml#_hC3RIIKVEeOuhPGQypdapg"/>
+    <visualProperties xmi:id="_iuP04YKVEeOuhPGQypdapg" position="36.0,366.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_iuP04oKVEeOuhPGQypdapg" label="+"/>
+    <attributes xmi:id="_iuP044KVEeOuhPGQypdapg" defaultValue="0" name="NEWGAME" staticAttribute="true">
+      <modelElement href="TicTacToeOnline.uml#_hK5y0IKVEeOuhPGQypdapg"/>
+      <visibility xmi:id="_iuP05IKVEeOuhPGQypdapg" label="-"/>
+      <cardinality xmi:id="_iuP05YKVEeOuhPGQypdapg" label="1" max="1" min="1"/>
+      <type xmi:id="_iuP05oKVEeOuhPGQypdapg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_iuP054KVEeOuhPGQypdapg" defaultValue="1" name="PLAYERZERO" staticAttribute="true">
+      <modelElement href="TicTacToeOnline.uml#_hK82IIKVEeOuhPGQypdapg"/>
+      <visibility xmi:id="_iuP06IKVEeOuhPGQypdapg" label="-"/>
+      <cardinality xmi:id="_iuP06YKVEeOuhPGQypdapg" label="1" max="1" min="1"/>
+      <type xmi:id="_iuP06oKVEeOuhPGQypdapg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_iuP064KVEeOuhPGQypdapg" defaultValue="2" name="PLAYERONE" staticAttribute="true">
+      <modelElement href="TicTacToeOnline.uml#_hK-EQIKVEeOuhPGQypdapg"/>
+      <visibility xmi:id="_iuP07IKVEeOuhPGQypdapg" label="-"/>
+      <cardinality xmi:id="_iuP07YKVEeOuhPGQypdapg" label="1" max="1" min="1"/>
+      <type xmi:id="_iuP07oKVEeOuhPGQypdapg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_iuP074KVEeOuhPGQypdapg" defaultValue="3" name="END" staticAttribute="true">
+      <modelElement href="TicTacToeOnline.uml#_hK_SYIKVEeOuhPGQypdapg"/>
+      <visibility xmi:id="_iuP08IKVEeOuhPGQypdapg" label="-"/>
+      <cardinality xmi:id="_iuP08YKVEeOuhPGQypdapg" label="1" max="1" min="1"/>
+      <type xmi:id="_iuP08oKVEeOuhPGQypdapg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_iuP084KVEeOuhPGQypdapg" defaultValue="NEWGAME" name="state">
+      <modelElement href="TicTacToeOnline.uml#_hLBHkIKVEeOuhPGQypdapg"/>
+      <stereotypes xmi:id="_iuP09IKVEeOuhPGQypdapg" name="LegacyStyledElement">
+        <modelElement href="TicTacToeOnline.uml#_hLEK4IKVEeOuhPGQypdapg"/>
+      </stereotypes>
+      <visibility xmi:id="_iuP09YKVEeOuhPGQypdapg" label="-"/>
+      <cardinality xmi:id="_iuP09oKVEeOuhPGQypdapg" label="1" max="1" min="1"/>
+      <type xmi:id="_iuP094KVEeOuhPGQypdapg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_iuP0-IKVEeOuhPGQypdapg" name="score">
+      <modelElement href="TicTacToeOnline.uml#_hLFZAIKVEeOuhPGQypdapg"/>
+      <stereotypes xmi:id="_iuP0-YKVEeOuhPGQypdapg" name="Array">
+        <modelElement href="TicTacToeOnline.uml#_hLGnIIKVEeOuhPGQypdapg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_iuP0-oKVEeOuhPGQypdapg" name="LegacyStyledElement">
+        <modelElement href="TicTacToeOnline.uml#_hLH1QIKVEeOuhPGQypdapg"/>
+      </stereotypes>
+      <visibility xmi:id="_iuP0-4KVEeOuhPGQypdapg" label="-"/>
+      <cardinality xmi:id="_iuP0_IKVEeOuhPGQypdapg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_iuP0_YKVEeOuhPGQypdapg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_iuP0_oKVEeOuhPGQypdapg" name="game">
+      <modelElement href="TicTacToeOnline.uml#_hLIcUIKVEeOuhPGQypdapg"/>
+      <stereotypes xmi:id="_iuP0_4KVEeOuhPGQypdapg" name="LegacyStyledElement">
+        <modelElement href="TicTacToeOnline.uml#_hLLfoIKVEeOuhPGQypdapg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_iuP1AIKVEeOuhPGQypdapg" name="LegacyStyledElement">
+        <modelElement href="TicTacToeOnline.uml#_hLLfoIKVEeOuhPGQypdapg"/>
+      </stereotypes>
+      <visibility xmi:id="_iuP1AYKVEeOuhPGQypdapg" label="-"/>
+      <cardinality xmi:id="_iuP1AoKVEeOuhPGQypdapg" label="1" max="1" min="1"/>
+      <type xmi:id="_iuQb8IKVEeOuhPGQypdapg" name="TicTacToe">
+        <modelElement href="TicTacToeOnline.uml#_hDlC0IKVEeOuhPGQypdapg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_iuQb8YKVEeOuhPGQypdapg" name="ai">
+      <modelElement href="TicTacToeOnline.uml#_hLMGsIKVEeOuhPGQypdapg"/>
+      <stereotypes xmi:id="_iuQb8oKVEeOuhPGQypdapg" name="LegacyStyledElement">
+        <modelElement href="TicTacToeOnline.uml#_hLN74IKVEeOuhPGQypdapg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_itkfcYKVEeOuhPGQypdapg" name="LegacyStyledElement">
+        <modelElement href="TicTacToeOnline.uml#_hLN74IKVEeOuhPGQypdapg"/>
+      </stereotypes>
+      <visibility xmi:id="_iuQb84KVEeOuhPGQypdapg" label="-"/>
+      <cardinality xmi:id="_iuQb9IKVEeOuhPGQypdapg" label="1" max="1" min="1"/>
+      <type xmi:id="_iuQb9YKVEeOuhPGQypdapg" name="AIPlayer">
+        <modelElement href="TicTacToeOnline.uml#_hBrlYIKVEeOuhPGQypdapg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_iuQb9oKVEeOuhPGQypdapg" name="TTTProtocol">
+      <modelElement href="TicTacToeOnline.uml#_hDFTkIKVEeOuhPGQypdapg"/>
+      <keywords xmi:id="_iuQb94KVEeOuhPGQypdapg" keyword="create"/>
+      <visibility xmi:id="_iuQb-IKVEeOuhPGQypdapg" label="+"/>
+      <outParameters xmi:id="_iuQb-YKVEeOuhPGQypdapg">
+        <modelElement href="TicTacToeOnline.uml#_hDGhsoKVEeOuhPGQypdapg"/>
+        <type xmi:id="_iuQb-oKVEeOuhPGQypdapg" name="TTTProtocol">
+          <modelElement href="TicTacToeOnline.uml#_hC3RIIKVEeOuhPGQypdapg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_iuQb-4KVEeOuhPGQypdapg" name="processInput">
+      <modelElement href="TicTacToeOnline.uml#_hDKMEIKVEeOuhPGQypdapg"/>
+      <visibility xmi:id="_iuQb_IKVEeOuhPGQypdapg" label="+"/>
+      <outParameters xmi:id="_iuQb_YKVEeOuhPGQypdapg">
+        <modelElement href="TicTacToeOnline.uml#_hDMBQIKVEeOuhPGQypdapg"/>
+        <type xmi:id="_iuQb_oKVEeOuhPGQypdapg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_iuQb_4KVEeOuhPGQypdapg" name="input">
+        <modelElement href="TicTacToeOnline.uml#_hDLaMIKVEeOuhPGQypdapg"/>
+        <type xmi:id="_iuQcAIKVEeOuhPGQypdapg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ixqVQIKVEeOuhPGQypdapg" name="TTTServer">
+    <modelElement href="TicTacToeOnline.uml#_hDeVIIKVEeOuhPGQypdapg"/>
+    <visualProperties xmi:id="_ixqVQYKVEeOuhPGQypdapg" position="16.0,631.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ixqVQoKVEeOuhPGQypdapg" label="+"/>
+    <operations xmi:id="_ixqVQ4KVEeOuhPGQypdapg" name="main" staticOperation="true">
+      <modelElement href="TicTacToeOnline.uml#_hDhYcIKVEeOuhPGQypdapg"/>
+      <visibility xmi:id="_ixqVRIKVEeOuhPGQypdapg" label="+"/>
+      <parameters xmi:id="_ixqVRYKVEeOuhPGQypdapg" name="args">
+        <modelElement href="TicTacToeOnline.uml#_hDh_gIKVEeOuhPGQypdapg"/>
+        <type xmi:id="_ixqVRoKVEeOuhPGQypdapg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_i0IacIKVEeOuhPGQypdapg" name="TicTacToe" associationsIn="_itoJ0IKVEeOuhPGQypdapg">
+    <modelElement href="TicTacToeOnline.uml#_hDlC0IKVEeOuhPGQypdapg"/>
+    <visualProperties xmi:id="_i0IacYKVEeOuhPGQypdapg" position="10.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_i0IacoKVEeOuhPGQypdapg" label="+"/>
+    <attributes xmi:id="_i0Iac4KVEeOuhPGQypdapg" name="board">
+      <modelElement href="TicTacToeOnline.uml#_hLQ_MIKVEeOuhPGQypdapg"/>
+      <stereotypes xmi:id="_i0IadIKVEeOuhPGQypdapg" name="Array">
+        <modelElement href="TicTacToeOnline.uml#_hLSNUIKVEeOuhPGQypdapg"/>
+      </stereotypes>
+      <visibility xmi:id="_i0IadYKVEeOuhPGQypdapg" label="+"/>
+      <cardinality xmi:id="_i0IadoKVEeOuhPGQypdapg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_i0Iad4KVEeOuhPGQypdapg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_i0IaeIKVEeOuhPGQypdapg" name="TicTacToe">
+      <modelElement href="TicTacToeOnline.uml#_hDotMIKVEeOuhPGQypdapg"/>
+      <keywords xmi:id="_i0IaeYKVEeOuhPGQypdapg" keyword="create"/>
+      <visibility xmi:id="_i0IaeoKVEeOuhPGQypdapg" label="+"/>
+      <outParameters xmi:id="_i0Iae4KVEeOuhPGQypdapg">
+        <modelElement href="TicTacToeOnline.uml#_hDp7UoKVEeOuhPGQypdapg"/>
+        <type xmi:id="_i0IafIKVEeOuhPGQypdapg" name="TicTacToe">
+          <modelElement href="TicTacToeOnline.uml#_hDlC0IKVEeOuhPGQypdapg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_i0IafYKVEeOuhPGQypdapg" name="boardInit">
+      <modelElement href="TicTacToeOnline.uml#_hDrJcIKVEeOuhPGQypdapg"/>
+      <visibility xmi:id="_i0IafoKVEeOuhPGQypdapg" label="-"/>
+    </operations>
+    <operations xmi:id="_i0Iaf4KVEeOuhPGQypdapg" name="makeMove">
+      <modelElement href="TicTacToeOnline.uml#_hDtlsIKVEeOuhPGQypdapg"/>
+      <visibility xmi:id="_i0IagIKVEeOuhPGQypdapg" label="+"/>
+      <outParameters xmi:id="_i0IagYKVEeOuhPGQypdapg">
+        <modelElement href="TicTacToeOnline.uml#_hDwpAIKVEeOuhPGQypdapg"/>
+        <type xmi:id="_i0IagoKVEeOuhPGQypdapg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_i0Iag4KVEeOuhPGQypdapg" name="x">
+        <modelElement href="TicTacToeOnline.uml#_hDuMwIKVEeOuhPGQypdapg"/>
+        <type xmi:id="_i0IahIKVEeOuhPGQypdapg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_i0IahYKVEeOuhPGQypdapg" name="y">
+        <modelElement href="TicTacToeOnline.uml#_hDva4IKVEeOuhPGQypdapg"/>
+        <type xmi:id="_i0IahoKVEeOuhPGQypdapg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_i0Iah4KVEeOuhPGQypdapg" name="player">
+        <modelElement href="TicTacToeOnline.uml#_hDwB8IKVEeOuhPGQypdapg"/>
+        <type xmi:id="_i0IaiIKVEeOuhPGQypdapg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_i0IaiYKVEeOuhPGQypdapg" name="checkWin">
+      <modelElement href="TicTacToeOnline.uml#_hDx3IIKVEeOuhPGQypdapg"/>
+      <visibility xmi:id="_i0IaioKVEeOuhPGQypdapg" label="-"/>
+      <outParameters xmi:id="_i0Iai4KVEeOuhPGQypdapg">
+        <modelElement href="TicTacToeOnline.uml#_hDzFQIKVEeOuhPGQypdapg"/>
+        <type xmi:id="_i0IajIKVEeOuhPGQypdapg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

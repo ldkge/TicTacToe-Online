@@ -90,10 +90,6 @@ public class TTTProtocol {
 					output = outcome + "|" + score[0] + ":" + score[1];
 				}
 			}
-//			else {
-//				output = "WAITING";
-//			}
-
 			break;
 		case END:
 			if (input.compareTo("NEWGAME") == 0) {
